@@ -1,21 +1,21 @@
 #ifndef LCD_H_
 #define LCD_H_
 
-#define LCDDATAPORT        PORTD  // Порт и пины,
-#define LCDDATADDR         DDRD   // к которым подключены
-#define LCDDATAPIN         PIND   // сигналы D4-D7.
+#define LCDDATAPORT        PORTD  // РџРѕСЂС‚ Рё РїРёРЅС‹,
+#define LCDDATADDR         DDRD   // Рє РєРѕС‚РѕСЂС‹Рј РїРѕРґРєР»СЋС‡РµРЅС‹
+#define LCDDATAPIN         PIND   // СЃРёРіРЅР°Р»С‹ D4-D7.
 #define LCD_D4             0
 #define LCD_D5             1
 #define LCD_D6             2
 #define LCD_D7             3
 
-#define LCDCONTROLPORT     PORTD  // Порт и пины,
-#define LCDCONTROLDDR      DDRD   // к которым подключены
-#define LCD_RS             6      // сигналы RS, RW и E.
+#define LCDCONTROLPORT     PORTD  // РџРѕСЂС‚ Рё РїРёРЅС‹,
+#define LCDCONTROLDDR      DDRD   // Рє РєРѕС‚РѕСЂС‹Рј РїРѕРґРєР»СЋС‡РµРЅС‹
+#define LCD_RS             6      // СЃРёРіРЅР°Р»С‹ RS, RW Рё E.
 #define LCD_RW             5
 #define LCD_E              4
 
-#define LCD_STROBEDELAY_US 5      // Задержка строба
+#define LCD_STROBEDELAY_US 5      // Р—Р°РґРµСЂР¶РєР° СЃС‚СЂРѕР±Р°
 
 #define LCD_COMMAND        0
 #define LCD_DATA           1
